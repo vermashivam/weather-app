@@ -1,0 +1,122 @@
+body{
+  font-family: Lato;
+  margin : 0;
+  background-size: cover ;
+  background-image: url(https://i.ibb.co/PTDSbkQ/1415275-22821821.jpg);
+  overflow: hidden;
+  color: white;
+}
+
+header {
+  position: absolute;
+  top:0px;
+  height:35px;
+  width:calc(100% - 10px);
+  padding : 5px;
+  background:rgba(0, 0, 0, 0.2);
+}
+
+main{
+  position: absolute;
+  top:45px;
+  width:calc(100% - 20px);;
+  height : calc(100vh - 45px);
+  padding : 10px;
+
+}
+
+.input {
+  text-align: center;
+}
+
+input[type=text]{
+  border : 2px solid #4FC3F7;
+  height : 20px;
+  width: 250px;
+  transition: height 0.5s , width 0.5s ease-in-out;
+  padding: 0px;
+  margin: 0px;
+}
+
+input[type=text]:hover{
+  height : 25px;
+  width : 260px;
+}
+input[type=text]:focus{
+  height : 25px;
+  width : 260px;
+}
+
+button {
+  height : 20px;
+  width : 60px;
+  background-color: #4FC3F7;
+  cursor: pointer;
+  border: 2px solid #4FC3F7;
+  padding: 0px;
+  margin: 0px;
+}
+
+button :hover {
+  height : 25px;
+  width : 260px;
+}
+
+.warning {
+  color : #4A148C;
+}
+
+
+  
+
+#headngWeather{
+  color: #white;
+  border-top : 3px solid white;
+  border-bottom: 3px solid white;
+  margin : 0px;
+  background:rgba(0, 0, 0, 0.2);
+}
+.main {
+  display : flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+  //flex-basis:243px;
+  margin:5px;
+  
+}
+.mainDiv{
+  display : flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 15px;
+  flex-wrap: wrap;
+  //flex-basis:243px;
+  margin:5px;
+  padding: 5px;
+  color: white;
+  transition: background-color 1s , color 1s ease-in-out;
+  background:rgba(0, 0, 0, 0.2);
+  
+}
+
+.mainDiv:hover{
+  background-color : white;
+  color : #4A148C;
+
+}
+
+.subDiv {
+  /* min-height: 243px; */
+  padding: 10px;
+  transition: background-color 1s , color 1s ease-in-out;
+  background:rgba(0, 0, 0, 0.2);
+  color: white;
+  margin : 5px;
+}
+.subDiv:hover{
+  background-color : white;
+  color : #4A148C;
+
+}
