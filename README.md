@@ -1,5 +1,7 @@
-# fsdi-mini-project-shivam-verma
+# Single Page weather-app
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/fsdi-mini-project-shivam-verma)
+[Visit Application ](https://vermashivam.github.io/weather-app/)
 
-[Visit Application ](https://fsdi-mini-project-shivam-verma.stackblitz.io)
+[Edit on StackBlitz ⚡️](https://fsdi-mini-project-shivam-verma.stackblitz.io)
+
+
