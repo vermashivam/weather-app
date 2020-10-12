@@ -1,5 +1,5 @@
 // Import stylesheets
-import './style.css';
+// import './style.css';
 const renderOnPage = weather => {
   var mainBody = document.querySelector("#main");;
   mainBody.innerHTML = "";
